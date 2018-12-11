@@ -2,7 +2,7 @@
 .card-title {
     text-align: center;
     color: #00b2a9;
-    padding-top: 50px;
+    
 }
 
  
@@ -26,38 +26,25 @@
 #footer a { color: black;
 }
 
-@media only screen and (min-width: 1241px) { .row {
-    padding-bottom: 270px; }
-}
 
-@media only screen and (max-width: 1240px) { .row {
-    padding-bottom: 200px;
-    }}
-
-@media only screen and (max-width: 975px)  { .row {
-    padding-bottom: 150px;
-    }}
-
-@media only screen and (max-width: 655px) { .row {
-    padding-bottom: 100px;
-    }}
 
 @media only screen and (min-width: 1241px) { .text {
-    padding-bottom: 400px; }
+    margin: 200px auto; }
 }
 
 @media only screen and (max-width: 1240px) { .text {
-    padding-bottom: 300px;
+    margin: 200px auto; 
     }}
 
 @media only screen and (max-width: 975px)  { .text {
-    padding-bottom: 150px;
+    margin: 150px auto; 
     }}
 
 @media only screen and (max-width: 655px) { .text {
-    padding-bottom: 100px;
+    margin: 50px auto; 
     }
     #select { padding-bottom: 10px;}
+    
 
 }
 

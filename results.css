@@ -10,6 +10,9 @@
     background-color: #ffbd4a;
 }
 
+h6{
+  text-align: center;
+}
 
 #grid {
         display:grid;
