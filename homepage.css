@@ -1,0 +1,379 @@
+      a{color:black;}
+      
+      #grid {
+        display:grid;
+        justify-content: center;
+        /*grid-gap:10px;*/
+      }
+      
+      .nav-toggler {
+        width:150px；
+      }
+
+      #header {
+        grid-area: header;
+      }
+
+      #joinnowbutton
+      {
+        background-color:#C9E3DB;
+        margin: 0px 20px;
+        border: none;
+        text-decoration: none;
+
+}
+      button#Login{
+        margin: 0px;
+      }
+   
+    .list-inline-item {
+   font-size:170%;
+       }
+      #one {
+        grid-area: one;
+      }
+
+      button#started.btn.btn-info{
+        background-color:#00B289;
+        font-size: 30px;
+        margin:20px 0px;
+        padding:10px 20px;
+        border: none;
+        border-radius:8px;
+      }
+      #two{
+        grid-area:two;
+        font-family:verdana;
+        font-weight: bolder;
+        font-size:30px;
+        text-align: center;
+        margin: 60px 20px 40px 20px;
+      }
+      
+      #three {
+        grid-area: three;
+       
+      }
+      
+      #four {
+        grid-area: four;
+     
+      }
+      
+      #five {
+        grid-area: five;
+        
+      }
+      
+      #six {
+        grid-area: six;
+     
+      }
+      
+      #seven {
+        grid-area: seven;
+       
+      }
+      
+      #eight {
+        grid-area: eight;
+        
+      }
+
+      a.btn.btn-primary{
+        background-color:#00B289;
+        border: none;
+      }
+
+      #three .card, #four .card, #five .card, #six .card, #seven .card, #eight .card
+      {
+        border: 0;
+        text-align: left;
+        margin: 5px;
+
+      }
+
+      #nine {
+        grid-area: nine;
+        background-image: url('moneyfoto.jpg');
+        background-size: cover;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      #ten {
+        grid-area: ten;
+  
+      }
+      #ten .card-img-top {
+        border-radius:50%;
+        width: 200px;
+        margin: 0 auto;
+
+      }
+
+      #eleven .card-img-top {
+        border-radius:50%;
+        width: 200px;
+        margin: 0 auto;
+
+
+      }
+
+      #ten .card, #eleven .card
+      {
+        border: 0;
+        text-align: center;
+
+      }
+      
+      #eleven {
+        grid-area: eleven;
+        
+      }
+      
+      #footer {
+        grid-area: footer;
+        background-color:#C9E3DB;
+
+      }
+
+      a#footer{
+        color:black;
+      }
+
+      button.btn.btn-primary{
+        background-color:#00B289;
+        border: none;
+      }
+      
+      #logo {
+        width:200px;
+      }
+      
+
+      .list-inline-item {
+    font-size:170%;
+      }
+
+      @media only screen and (min-width: 1241px) {
+        #grid {
+          grid-template-columns: repeat(6, 1/6);
+          grid-template-rows: repeat(8, auto);
+          grid-template-areas: 
+            "header   header   header   header   header   header"
+            "one one one one one one"
+            "two two two two two two"
+            "three three four four five five"
+            "six six seven seven eight eight"
+            "nine nine nine nine nine nine"
+            "ten ten ten eleven eleven eleven"
+            "footer footer footer footer footer footer"
+        }
+
+      #one {
+        background-image: url('pigmoney.jpeg');
+        padding: 160px 60% 60px 160px;
+        text-align: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size:100%;
+        font-size:18px;
+        height: 700px;
+
+      }
+        #nine{
+        height:700px;
+        background-size:100% 100%;
+        padding: 140px 40% 50px 20%;
+      }
+
+      #nine h1{
+        font-size:70px;
+        margin: 40px auto;
+
+      }
+      #nine p{
+        font-size: 20px;
+      }
+      #ten{
+        margin: 150px 40px;
+      }
+      #eleven{
+        margin: 150px 40px;
+      }
+
+      }
+      
+
+@media only screen and (max-width: 1240px) {
+        #grid {
+          grid-template-columns: repeat(6, 1/6);
+          grid-template-rows: repeat(8, auto);
+          grid-template-areas: 
+            "header   header   header   header   header   header"
+            "one one one one one one"
+            "two two two two two two"
+            "three three four four five five"
+            "six six seven seven eight eight"
+            "nine nine nine nine nine nine"
+            "ten ten ten eleven eleven eleven"
+            "footer footer footer footer footer footer"
+        }
+        #one {
+        background-image: url('pigmoney.jpeg');
+        background-size: cover;
+        padding: 110px 57% 60px 80px;  
+        font-size:18px;      
+        text-align: center;
+        width: 100%;
+        height:640px;
+        left: 0;
+        
+      }
+      #nine{
+        height:500px;
+        background-size:100% 100%;
+        padding: 10% 40% 50px 20%;
+      }
+      #nine p{
+        margin:20px;}
+      #ten{
+        margin: 150px 40px;
+      }
+      #eleven{
+        margin: 150px 40px;
+      }
+      }
+      
+      @media only screen and (max-width: 975px) {
+        #grid {
+          grid-template-columns: repeat(4, 25%);
+          grid-template-rows: repeat(9, auto);
+          grid-template-areas: 
+            "header   header   header   header"
+            "one one one one"
+            "two two two two"
+            "three three four four"
+            "five five six six"
+            "seven seven eight eight"
+            "nine nine nine nine"
+            "ten ten eleven eleven"
+            "footer footer footer footer"
+        }
+
+        #one {
+        background-image: url('pigmoney50.jpg');
+        padding: 80px 150px 80px 150px;
+        height:500px;
+        width:100%;
+      }
+
+      #joinnowbutton
+      { font-size:12px;
+        margin: 0 5px;
+      }
+
+      #Login{
+        font-size: 12px;
+        padding: 10px 15px;
+        margin:0 5px;
+
+      }
+
+      #nine{
+        padding: 10% 40% 50px 15%;
+      }
+
+      #ten{
+        margin: 150px 40px;
+      }
+      #eleven{
+        margin: 150px 40px;
+      }
+    }
+
+
+    a.btn.btn-primary{
+      background-color:#00b2a9;
+    }
+      
+      @media only screen and (max-width: 655px) {
+        #grid {
+          grid-template-columns: repeat(2, 50%); 
+          grid-template-rows: repeat(13, auto);
+          grid-template-areas: 
+            "header   header"
+            "one one"
+            "two two"
+            "three three"
+            "four four"
+            "five five"
+            "six six"
+            "seven seven"
+            "eight eight"
+            "nine nine"
+            "ten ten"
+            "eleven eleven"
+            "footer footer"
+        }
+
+        h1{
+          font-size:1.4rem;
+          font-weight:bolder;
+          padding:5px;
+        }
+
+        #one {
+        background-image: url('pigmoney50.jpg');
+        background-color:;
+        padding: 17% 17%;
+        font-size: 1rem;
+        text-align: center;
+        background-size:100% 100%;
+        width:100%;
+      }
+
+   button#started.btn.btn-info{
+        background-color:#00B289;
+        font-size: 20px;
+        margin:20px 0px;
+        padding:10px 20px;
+      }
+
+  #nine{
+    font-size: 12px;
+    padding: 16% 35% 30px 15%;
+      }
+  #nine p{
+        margin:0;
+      }
+  #ten{
+        margin: 40px;
+      }
+      #eleven{
+        margin: 30px;
+      }
+      
+      }
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
